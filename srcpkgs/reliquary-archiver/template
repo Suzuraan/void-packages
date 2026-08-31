@@ -1,0 +1,19 @@
+pkgname=reliquary-archiver
+version=0.18.0
+revision=1
+build_style=cargo
+short_desc="Tool to create a relic export from network packets of a certain turn-based anime game"
+maintainer="Suzuran <suzuran@proton.me>"
+license="MIT"
+homepage="https://github.com/IceDynamix/reliquary-archiver"
+distfiles="https://github.com/IceDynamix/reliquary-archiver/archive/refs/tags/v${version}.tar.gz"
+checksum="c5559d3b819e14f93b0d71e47e664c85977fe544def3e6497271abfc741b5bb4"
+depends="wayland libpcap"
+hostmakedepends="wayland pkg-config"
+makedepends="wayland-devel libpcap-devel"
+
+post_install() {	
+	vlicense LICENSE
+}
+
+
