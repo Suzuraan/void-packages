@@ -1,12 +1,12 @@
 pkgname=koboldcpp-nocuda
-version=1.120
+version=1.123.1
 revision=1
 short_desc="Run GGUF models easily with a KoboldAI UI"
 maintainer="Suzuran <suzuraan@proton.me>"
 license="AGPL-3.0"
 homepage="https://github.com/LostRuins/koboldcpp"
 distfiles="https://github.com/LostRuins/koboldcpp/releases/download/v${version}/koboldcpp-linux-x64-nocuda"
-checksum="48e3ef799008b9d2b7accc59bb6da019064894621a410269c21bb744218419bb"
+checksum="6b1aa62b69f825199c3296b7dd36ff6b332b894098f50db8aba0061861c14d2b"
 skip_extraction="koboldcpp-linux-x64-nocuda"
 
 do_install() {
